@@ -1,0 +1,9 @@
+Starting app_api as root
+[2019-03-14 09:31:49 +0000] [20] [INFO] Starting gunicorn 19.9.0
+[2019-03-14 09:31:49 +0000] [20] [INFO] Listening at: http://0.0.0.0:8000 (20)
+[2019-03-14 09:31:49 +0000] [20] [INFO] Using worker: sync
+[2019-03-14 09:31:49 +0000] [24] [INFO] Booting worker with pid: 24
+[2019-03-14 09:31:49 +0000] [25] [INFO] Booting worker with pid: 25
+[2019-03-14 09:31:49 +0000] [26] [INFO] Booting worker with pid: 26
+/usr/local/lib/python3.6/dist-packages/django/db/models/fields/__init__.py:1421: RuntimeWarning: DateTimeField TestModel.updated_at received a naive datetime (2019-03-14 09:32:01.938488) while time zone support is active.
+  RuntimeWarning)
